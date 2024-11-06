@@ -3,6 +3,9 @@
     // || = true if at least one condition is true
     // ! = true if false. False is true.
 
+    //=== identical to
+    //!== not identical to 
+
     $temp = 15;
     $cloudy = false;
     /*if($temp < 0  && $temp > 30){

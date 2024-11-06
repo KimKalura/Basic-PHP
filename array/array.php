@@ -17,7 +17,7 @@
 
     array_push($foods, "pineapple", "kiwi"); //adauga in array 
     array_pop($foods); //ultimul element este sters
-    array_shift($foods);
+    array_shift($foods); //primul element este sters
     echo count($foods);
     foreach($foods as $food){
         echo $food . '<br>';
@@ -28,5 +28,16 @@
     foreach($reversed_foods as $food){
         echo $food . '<br>';
     }
+
+
+    echo '<br> Numbers + string <br>';
+    $numbers = [1, 44, 55, 22];
+    $fruits = array('apple', 'orange', 'pear');
+
+    print_r($numbers);
+    echo '<br>';
+    var_dump($numbers);
+    echo '<br>';
+    print_r( $fruits);
 
 ?>

@@ -41,6 +41,37 @@
     
     echo count($capitals);
 
+    //
+    echo '<br>';
+    $colors = [
+        1 => 'red',
+        4 => 'blue',
+        6 => 'green'
+    ];
+    echo $colors[6];
+
+    //
+    $people = [
+        [
+           'first_name' => 'Kalura',
+           'last_name' => 'Kim',
+           'email' => 'kalura@gmail.com'
+        ],
+
+        [
+            'first_name' => 'John',
+            'last_name' => 'Doe',
+            'email' => 'john@gmail.com'
+        ],
+        [
+            'first_name' => 'Jane',
+            'last_name' => 'Doe',
+            'email' => 'jane@gmail.com'
+        ]
+    ];
+    echo $people[1]['email'];
+    echo '<br>';
+    var_dump(json_encode($people));
 ?>
 
 

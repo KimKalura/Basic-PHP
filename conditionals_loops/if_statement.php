@@ -38,6 +38,24 @@
     else {
         $weekly_pay = ($rate * 40) + (($hours - 40) * ($rate * 1.5)); 
     }
-    echo "You made \${$weekly_pay} this week."
+    echo "You made \${$weekly_pay} this week.";
 
+
+    //
+    echo '<br>';
+    $posts = ['First Post'];
+    /*if(!empty($posts)){
+        echo $posts[0];
+    } else{
+        echo 'No Posts';
+    }*/
+    //SAU
+    //echo !empty($posts) ? $posts[0] : 'No Posts';
+    //SAU
+    //$firstPost = !empty($posts) ? $posts[0] : 'No Posts';
+    
+    //$firstPost = !empty($posts) ? $posts[0] : null;
+    $firstPost = $posts[0] ?? null; // ?? null coalescing operator
+    echo $firstPost;
+    
 ?>
