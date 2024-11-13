@@ -7,6 +7,7 @@
 
     $foods = array("apple", "orange", "banana", "coconut");
 
+    //echo $foods; //ne da eroare
     //echo $foods[0] . '<br>';
     //echo $foods[2] . '<br>';
     //echo $foods[4] . '<br>';

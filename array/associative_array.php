@@ -72,6 +72,23 @@
     echo $people[1]['email'];
     echo '<br>';
     var_dump(json_encode($people));
+    
+    //
+
+    $document = array(
+                    'First Document' => array(
+                        'melodie.mp3', 'install.exe', 'tomcat'
+                    ),
+  
+                    'Second Document' => array(
+                        'Muzica'=> array('song0.mp3', 'song1.mp3', 'song0.mp2'),
+                        'Games'=> array('Game1', 'Game2', 'Game3')
+
+                    )
+                    );
+
+    echo '<br> <br>';
+    print_r($document);
+    echo $document['Al doilea document']['Muzica'][1];
+
 ?>
-
-

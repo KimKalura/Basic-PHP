@@ -13,6 +13,9 @@
     $users = 2;
     $quantity = 4;
 
+    //concatenare
+    echo 'My name is ' . $name . ' I am ' .  $age . ' years old.';
+
     //float:  
     $gpa = 2.5; //gpa = grade point average 
     $price = 5.99;
